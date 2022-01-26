@@ -16,7 +16,7 @@ int networkAlertStub(float celcius) {
     else{
         printf("ALERT: Temperature is %.1f celcius.\n", celcius);
         // Return 500 for not-ok
-        return 200;
+        return 500;
     }
 }
 
